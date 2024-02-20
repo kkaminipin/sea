@@ -1,0 +1,203 @@
+.cb{float:left; width:100%; height:100%; clear:both;}
+*{margin:0; padding:0; list-style:none; border:0; text-decoration:none; font-family:"Nanum Square", sans-serif;}
+table{border-collapse:collapse; border-spacing:0;}
+body{overflow:hidden;}/* overflow:hidden; */
+#scroll{position:absolute; top:0px; left:0px; width:100%; height:100%;}/*min-width:1280px; overflow:hidden;*/
+#wrap{position:relative; float:left; width:100%; height:100%;}
+#section01{position:relative; float:left; width:100%; height:1080px; z-index:9999;}
+.sunset{position:absolute; top:0%; left:0%;}
+.sun{position:absolute; top:0%; left:0%; width:100%; text-align:center; display:none;}/*35*/
+.cloud1{position:absolute; top:1%; left:0%; display:none;}
+.cloud2{position:absolute; top:1%; right:0%; display:none;}/*-16*/
+.island{position:absolute; top:24.6%; right:0%; display:none;}
+.water{position:absolute; bottom:-63%; left:0%;}/*-63*/
+.sea_water_wrap{position:absolute; bottom:-0.4%; left:0%; width:100%;}
+.sea_water_ul{position:relative; float:left; width:100%;}
+.sea_water_ul li{position:absolute; bottom:0%; left:0%; width:100%; display:none;}
+.fisherman{position:absolute; top:51.3%; left:-30%;}
+.wave_wrap{position:absolute; bottom:21%; left:0%; width:100%;}
+.wave_ul{position:relative; float:left; width:100%;}
+.wave_ul li{position:absolute; bottom:0%; left:0%; width:100%; display:none;}
+.mouse_scroll_wrap{position:absolute; bottom:13%; left:0%; width:100%; text-align:center; display:none;}
+.mouse img{width:70px;}
+.mouse_scroll{position:absolute; bottom:68%; left:0%; width:100%; text-align:center;}
+.mouse_scroll img{width:10px;}
+.scroll_down{margin-top:10px; font-size:17px; color:#fff;}
+
+#section02{position:relative; float:left; width:100%; height:1080px; background:url("../images/sct02_bg.png") no-repeat right;}
+.water_drop1 img{position:absolute; top:100%; left:0%; z-index:9;}
+.water_drop2 img{position:absolute; top:100%; left:0%; z-index:9;}
+.water_drop3 img{position:absolute; top:100%; left:0%; z-index:9;}
+.water_drop4 img{position:absolute; top:100%; left:0%; z-index:9;}
+.water_drop5 img{position:absolute; top:100%; left:0%; z-index:9;}
+.water_drop6 img{position:absolute; top:100%; left:0%; z-index:9;}
+.water_drop7 img{position:absolute; top:100%; left:0%; z-index:9;}
+.water_drop8 img{position:absolute; top:100%; left:0%; z-index:9;}
+.water_shadow1{position:absolute; top:81.29%; left:71.92%; display:none;}
+.water_shadow2{position:absolute; top:20.37%; left:27.13%;}
+.coral1{position:absolute; top:56.01%; left:-2%;}
+.coral2{position:absolute; top:61.85%; left:83.90%;}
+.coral3{position:absolute; top:71.75%; left:86.14%;}
+.anchor{position:absolute; top:-20%; left:46.4%; display:none;}
+.rope{position:absolute; top:-125%; left:50%; display:none;}
+.anchor_water_drop1{position:absolute; top:-45%; left:43%;}
+.anchor_water_drop2{position:absolute; top:-45%; left:54%;}
+.anchor_water_drop3{position:absolute; top:-45%; left:52%;}
+.anchor_water_drop4{position:absolute; top:-45%; left:48%;}
+.anchor_water_drop5{position:absolute; top:-45%; left:47%;}
+.anchor_water_drop6{position:absolute; top:-45%; left:42%;}
+.anchor_water_drop7{position:absolute; top:-45%; left:43%;}
+.anchor_water_drop8{position:absolute; top:-45%; left:45%;}
+.anchor_water_drop9{position:absolute; top:-45%; left:47%;}
+.anchor_water_drop10{position:absolute; top:-45%; left:44%;}
+.welcome{position:absolute; top:0%; left:41%; display:none;}
+.welcome_water_drop1{position:absolute; top:-60%; left:37%;}
+.welcome_water_drop2{position:absolute; top:-60%; left:41%;}
+.welcome_water_drop3{position:absolute; top:-60%; left:56%;}
+.welcome_water_drop4{position:absolute; top:-60%; left:54%;}
+.welcome_water_drop5{position:absolute; top:-60%; left:56%;}
+.welcome_water_drop6{position:absolute; top:-60%; left:40%;}
+.welcome_water_drop7{position:absolute; top:-60%; left:43%;}
+.welcome_water_drop8{position:absolute; top:-60%; left:49%;}
+.welcome_water_drop9{position:absolute; top:-60%; left:45%;}
+.welcome_water_drop10{position:absolute; top:-60%; left:55%;}
+.welcome_water_drop11{position:absolute; top:-60%; left:48%;}
+.welcome_water_drop12{position:absolute; top:-60%; left:46%;}
+.welcome_water_drop13{position:absolute; top:-60%; left:44%;}
+.welcome_water_drop14{position:absolute; top:-60%; left:57%;}
+.fish_shadow1{position:absolute; top:54%; left:100%; opacity:0;}/*top:31.01 left:76.04*/
+.shark{position:absolute; top:15%; left:-54%;}/*top:20%*/
+.shark img{width:970px; height:412px;}
+.fish_shadow2{position:absolute; top:54%; left:-30%;}
+
+#section03{position:relative; float:left; width:100%; height:1080px; background:url("../images/sct03_bg.png") no-repeat right;}
+.water_shadow3{position:absolute; top:2.87%; left:7.08%;}
+.water_shadow4{position:absolute; top:80%; left:80%;}
+.coral4{position:absolute; top:6.85%; left:0%;}
+.coral5{position:absolute; top:12.40%; left:85.83%;}
+.coral6{position:absolute; top:28.33%; left:85.62%;}
+.coral7{position:absolute; top:43.98%; left:83.64%;}
+.coral8{position:absolute; top:44.25%; left:87.81%;}
+.sea_horse1{position:absolute; top:6.11%; left:89.42%;}
+.fish1{position:absolute; top:40%; left:-20%;}
+.fishing_line_wrap{position:absolute; top:-120%; left:47%; display:none;}
+.fishing_line{float:left; position:relative;}
+.tuna_click{position:absolute; bottom:-4%; left:-35%; display:none;}
+.gold_tuna{position:absolute; top:63%; left:100%;}
+.my_info li{font-size:30px; font-weight:bold; color:#fff;}
+.born{position:absolute; top:60%; left:57%; display:none;}
+.elementary_school{position:absolute; top:50%; right:57%; display:none;}
+.middle_school{position:absolute; top:40%; left:57%; display:none;}
+.high_school{position:absolute; top:30%; right:57%; display:none;}
+.university{position:absolute; top:20%; left:57%; display:none;}
+.company{position:absolute; top:10%; right:57%; display:none;}
+.fish_shadow3{position:absolute; top:54%; left:-25%;}
+
+#section04{position:relative; float:left; width:100%; height:1080px; background:url("../images/sct04_bg.png") no-repeat right;}
+.water_shadow5{position:absolute; top:50%; left:5%;}
+.jellyfish2{position:absolute; top:100%; left:0%;}
+.fish_shadow4{position:absolute; top:100%; left:0%;}
+.gomchi_eye_wrap{float:left;}
+.red_gomchi_eye{position:absolute; top:8.88%; left:89.42%; width:136px; height:157px;}
+.blue_gomchi_eye{position:absolute; top:26.11%; left:89.32%; width:156px; height:157px;}
+.green_gomchi_eye{position:absolute; top:43.24%; left:89.16%; width:147px; height:163px;}
+.brown_gomchi_eye{position:absolute; top:61.11%; left:89.16%; width:156px; height:157px;}
+.turquoise_gomchi_eye{position:absolute; top:78.51%; left:89.42%; width:136px; height:164px;}
+.skill_percent1{position:absolute; top:37%; left:37%; font-size:30px; color:#fff;}
+.skill_percent2{position:absolute; top:32%; left:35%; font-size:30px; color:#fff;}
+.skill_percent3{position:absolute; top:34%; left:37%; font-size:30px; color:#fff;}
+.skill_percent4{position:absolute; top:35%; left:37%; font-size:30px; color:#fff;}
+.skill_percent5{position:absolute; top:37%; left:37%; font-size:30px; color:#fff;}
+.over_me{position:absolute; top:4%; left:88%; display:none;}
+.gomchi_wrap{float:left;}
+.red_gomchi{position:absolute; top:12%; right:9%; overflow:hidden; width:0%;}
+.red_gomchi img{float:left; height:100%;}
+.blue_gomchi{position:absolute; top:29%; right:9%; overflow:hidden; width:0%;}
+.blue_gomchi img{float:left; height:100%;}
+.green_gomchi{position:absolute; top:47%; right:9%; overflow:hidden; width:0%;}
+.green_gomchi img{float:left; height:100%;}
+.brown_gomchi{position:absolute; top:65%; right:9%; overflow:hidden; width:0%;}
+.brown_gomchi img{float:left; height:100%;}
+.turquoise_gomchi{position:absolute; top:83%; right:9%; overflow:hidden; width:0%;}
+.turquoise_gomchi img{float:left; height:100%;}
+
+#section05{position:relative; float:left; width:100%; height:1080px; background:url("../images/sct05_bg.png") no-repeat right;}
+.water_shadow6{position:absolute; top:76%; left:2%;}
+.water_shadow7{position:absolute; top:3%; left:72%;}
+.coral9{position:absolute; top:13.33%; left:82.70%;}
+.coral10{position:absolute; top:6.94%; left:85.46%;}
+.coral11{position:absolute; top:65.83%; left:89.79%;}
+.coral12{position:absolute; top:86.75%; left:85.93%;}
+.submarine_wrap{position:absolute; top:3%; left:100%;}
+.submarine{position:relative; float:left;}
+.window_wrap{float:left;}
+.window_wrap li span{display:none;}
+.window_wrap li span a{font-size:30px; font-weight:bold; color:#fff;}
+.large_window1{position:absolute; top:63%; left:10%; width:185px; height:185px; background:url("../images/large_window.png") no-repeat;}
+.large_window2{position:absolute; top:63%; left:26.3%; width:185px; height:185px; background:url("../images/large_window.png") no-repeat;}
+.large_window3{position:absolute; top:63%; left:42.5%; width:185px; height:185px; background:url("../images/large_window.png") no-repeat;}
+.large_window4{position:absolute; top:63%; left:58.6%; width:185px; height:185px; background:url("../images/large_window.png") no-repeat;}
+.small_window{position:absolute; top:30%; left:17.9%; width:113px; height:113px; background:url("../images/small_window.png") no-repeat;}
+.large_window_info{float:left; width:100%; height:100%; text-align:center; line-height:185px;}
+.large_window_info img{vertical-align:middle;}
+.small_window{float:left; width:113px; height:113px; text-align:center; line-height:113px;}
+.small_window img{vertical-align:middle;}
+.ghost_fish{position:absolute; top:25%; left:-20%;}
+.submarine_inside_wrap{position:absolute; top:0%; left:0%; width:100%; height:100%; background:url("../images/submarine_inside.png") no-repeat; display:none; z-index:100;}
+.submarine_inside{float:left; position:relative; width:100%; height:100%;}
+.submarine_inside li{position:absolute; top:46%; left:13%; font-size:30px; font-weight:bold; color:#000; display:none;}
+.submarine_inside li a{color:#000;}
+.submarine_close{position:absolute; top:3%; right:6%; font-size:40px;}
+.submarine_close a{color:#fff;}
+.submarine_close a img{width:120px;}
+.submarine_fish{position:absolute; top:50%; left:-10%;}
+.submarine_bubble1{position:absolute; top:23%; left:99%;}
+.submarine_bubble2{position:absolute; top:-7.8%; left:31.5%; display:none;}
+
+#section06{position:relative; float:left; width:100%; height:1080px; background:url("../images/sct06_bg.png") no-repeat right;}
+.bottom_bg{position:absolute; bottom:-0.4%; left:0%;}
+.water_shadow8{position:absolute; top:70.83%; left:0%;}
+.water_shadow9{position:absolute; top:79.35%; left:6.92%;}
+.coral13{position:absolute; top:40.09%; left:78.28%;}
+.coral14{position:absolute; top:57.40%; left:0%;}
+.coral15{position:absolute; top:83.05%; left:61.45%;}
+.coral16{position:absolute; top:63.33%; left:83.75%;}
+.coral17{position:absolute; top:75.09%; left:88.85%;}
+.shellfish_top{position:absolute; top:82%; left:76.2%;}
+.shellfish_bottom_wrap{position:absolute; top:86%; left:76%;}
+.shellfish_bottom{float:left; position:relative;}
+.shellfish_bubble{position:absolute; top:-174%; left:-25%;}
+.shellfish_bubble img{display:none;}
+.starfish1{position:absolute; top:80.83%; left:9.73%;}
+.starfish2{position:absolute; top:81.94%; left:16.66%;}
+.crab{position:absolute; top:86.29%; left:53.59%;}
+.nemo{position:absolute; top:60%; left:-15%;}
+.dori1{position:absolute; top:44%; left:100%;}
+.dori2{position:absolute; top:27%; left:100%;}
+.fish_shadow5{position:absolute; top:40%; left:100%;}
+.octopus_wrap{position:absolute; top:26.5%; left:-20%; z-index:300;}
+.octopus{float:left; position:relative;}
+.octopus_click{position:absolute; top:100%; left:30%; display:none;}
+.meokmul{float:left;}
+.meokmul li{position:absolute; top:0%; left:0%; z-index:200; display:none;}
+.end{float:left;}
+.logo{position:absolute; top:5%; left:3%; z-index:9999; display:none;}
+.logo img{width:200px;}
+.t_y_f_w{position:absolute; top:34%; left:0%; width:100%; text-align:center; font-size:67px; font-weight:bold; color:#fff; z-index:9999; display:none;}
+.matrix_wrap{position:absolute; bottom:19%; right:1%; width:640px; z-index:9999;}
+.matrix{float:left;}
+.matrix li{float:left; position:relative; width:100%; height:100%; text-align:center; font-size:20px; line-height:35px; color:aqua;}
+.matrix_kor{display:none;}
+.matrix_kor p{font-size:17px; color:#fff;}
+.matrix_eng p{font-size:17px; color:#fff;}
+.language{float:left;}
+.language li{position:absolute; bottom:3px; left:79%; font-size:21px; display:none;}
+.language li a{color:chartreuse;}
+.personal_information{position:absolute; bottom:33%; right:5%; width:400px; z-index:9999; display:none;}
+.personal_information > li{float:left; position:relative; font-size:20px; margin-right:20px;}
+.personal_information > li a{color:#fff;}
+.email2{position:absolute; top:432%; left:-158%; font-size:20px; color:#fff; display:none;}
+.icon{position:fixed; top:5%; left:2%; z-index:100; display:none;}
+.icon li{margin-top:15px;}
+.icon li:first-child{margin-top:0px;}
+.icon img{width:54px; height:54px;}

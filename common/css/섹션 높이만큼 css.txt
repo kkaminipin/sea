@@ -1,0 +1,31 @@
+﻿.cb{float:left; width:100%; height:100%; clear:both;}
+*{margin:0; padding:0; list-style:none; border:0; text-decoration:none; font-family:"Nanum Square", sans-serif;}
+table{border-collapse:collapse; border-spacing:0;}
+#scroll{position:absolute; top:0px; left:0px; overflow:hidden;}
+#wrap{position:relative; float:left; width:100%; height:100%;}
+.center_wrap{position:relative; width:1280px; height:100%; margin:0 auto; border:1px solid red;}
+#section01{float:left; width:1920px; height:1080px;}
+.sunset{position:absolute; top:0%; left:0%; display:none;}
+.sun{position:absolute; top:0%; left:0%; width:100%; text-align:center; display:none;}/*35*/
+.cloud1{position:absolute; top:1%; left:0%; display:none;}
+.cloud2{position:absolute; top:1%; right:0%; display:none;}/*-16*/
+.water{position:absolute; bottom:-63%; left:0%;}
+.sea_water_wrap{position:absolute; bottom:0%; left:0%; width:100%;}
+.sea_water_ul{position:relative; float:left; width:100%;}
+.sea_water_ul li{position:absolute; bottom:0%; left:0%; width:100%; display:none;}
+
+
+.fisherman{position:absolute; top:46.3%; left:-30%;}
+
+.wave_wrap{position:absolute; bottom:26%; left:0%; width:100%;}
+.wave_ul{position:relative; float:left; width:100%;}
+.wave_ul li{position:absolute; bottom:0%; left:0%; width:100%; display:none;}
+
+
+.right_cliff{position:absolute; top:23.2%; right:0%; display:none;}
+
+
+#section02{position:relative; float:left; width:1920px; height:1080px;}
+#section03{position:relative; float:left; width:1920px; height:1080px;}
+#section04{position:relative; float:left; width:1920px; height:1080px;}
+#section05{position:relative; float:left; width:1920px; height:1080px;}
